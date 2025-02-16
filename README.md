@@ -16,6 +16,14 @@ The **Student Management System** is a simple C++ console application that allow
 - C++
 - File Handling
 - Object-Oriented Programming (OOP)
+  
+## Handled Errors
+- Prevents adding students with duplicate IDs.
+- Ensures only valid numeric values are entered for age.
+- Checks if the file exists before loading data.
+- Validates input formats (e.g., no spaces in names).
+- Displays appropriate messages for invalid operations (e.g., deleting a non-existent student).
+
 
 ## Installation & Usage
 ### Prerequisites
