@@ -6,6 +6,7 @@
 #include <algorithm>
 
 using namespace std;
+//Class for student
 
 class Student {
 public:
