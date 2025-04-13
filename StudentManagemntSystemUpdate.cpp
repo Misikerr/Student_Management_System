@@ -15,7 +15,7 @@ public:
     int age;
     string department;
     double grade;
-//display students ingormation here
+//display students information here
     void displayStudentInfo() const{
         cout << "----------------------------------------------------" << endl;
         cout << "|                Student Detail.                   " << endl;
@@ -35,9 +35,11 @@ class StudentManager{
     vector<Student> students;
 
     public:
+//add student information
     void addStudentInfo(){
         Student newStudent;
         cin.ignore();
+        //check if the student name is empty
         while (true){
             cout <<"Enter Student Name:";
             getline(cin,newStudent.name);
@@ -48,7 +50,7 @@ class StudentManager{
             cout <<"Student name can't be empty.\n";
             continue;
         }
-
+        //check if the id is valid posetive integer only
         while (true) {
             cout << "Enter Student ID: ";
             cin >> newStudent.id;
@@ -72,7 +74,7 @@ class StudentManager{
     
             break;
         }
-        
+        //check if student age is a valid age
         while(true){
             cout <<"Enter Student Age:";
             cin >>newStudent.age;
