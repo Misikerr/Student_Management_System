@@ -299,7 +299,7 @@ class StudentManager{
                 cout <<"Invalid Input.\n";
         }
     }
-
+    //save the data into file
     void saveToFile() {
         ofstream outFile("student.txt");
         if (!outFile) {
@@ -348,7 +348,7 @@ class StudentManager{
         inFile.close();
         // cout << "Student Management loaded successfully!\n";
     }
-
+    //delete student information
     void deleteStudent(){
         if(students.empty()){
             cout <<"There is no student to delete.\n";
