@@ -15,6 +15,7 @@ public:
     int age;
     string department;
     double grade;
+//display students ingormation here
     void displayStudentInfo() const{
         cout << "----------------------------------------------------" << endl;
         cout << "|                Student Detail.                   " << endl;
@@ -28,6 +29,7 @@ public:
     }
 };
 
+//class for student manager
 class StudentManager{
     private:
     vector<Student> students;
